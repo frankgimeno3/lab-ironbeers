@@ -1,0 +1,12 @@
+<header>
+    {{#each .}}
+        <div class="twocolumns">
+            <img src="{{image_url}}" class="leftImage">
+            <div>
+                <h2>{{name}}</h2>
+                <p>{{description}}</p>
+                <p>{{tagline}}</p>
+            </div>
+        </div>
+    {{/each}}
+</header>
